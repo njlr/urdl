@@ -1,0 +1,9 @@
+{
+  "name": "urdl",
+  "dependencies": {
+    "boost/system": "1.63.0",
+    "boost/array": "1.63.0",
+    "boost/asio": "1.63.0",
+    "boost/timer": "1.63.0"
+  }
+}

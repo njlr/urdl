@@ -1,0 +1,39 @@
+cxx_binary(
+  name = 'get1',
+  srcs = [
+    'get1.cpp',
+  ],
+  deps = [
+    '//:urdl',
+  ],
+)
+
+cxx_binary(
+  name = 'get2',
+  srcs = [
+    'get2.cpp',
+  ],
+  deps = [
+    '//:urdl',
+  ],
+)
+
+cxx_binary(
+  name = 'multiget1',
+  srcs = [
+    'multiget1.cpp',
+  ],
+  deps = [
+    '//:urdl',
+  ],
+)
+
+cxx_binary(
+  name = 'multiget2',
+  srcs = [
+    'multiget2.cpp',
+  ],
+  deps = [
+    '//:urdl',
+  ],
+)
